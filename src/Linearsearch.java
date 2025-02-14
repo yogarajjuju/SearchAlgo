@@ -9,10 +9,10 @@ public class Linearsearch {
         if(arr.length == 0){
             return -1;
         }
-        for (int i = 0; i < arr.length; i++) {
-            int element = arr[i];
+        for (int index = 0; index < arr.length; index++) {
+            int element = arr[index];
             if( element == target) {
-                return i;
+                return index;
             }
 
         }
