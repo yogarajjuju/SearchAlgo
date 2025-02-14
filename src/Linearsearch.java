@@ -12,7 +12,8 @@ public class Linearsearch {
         for (int index = 0; index < arr.length; index++) {
             int element = arr[index];
             if( element == target) {
-                return index;
+                return element; // to return the target
+//                return index; to return the position ;
             }
 
         }
