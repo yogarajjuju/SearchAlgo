@@ -5,6 +5,7 @@ public class Floor {
         int ans = floor(arr, target);
         System.out.println(ans);
     }
+   // its used to find the number which is smaller that or = target
     static int floor(int[] arr , int target){
         int start = 0;
         int end = arr.length-1;

@@ -5,7 +5,7 @@ public class Celing {
         int ans = celing(arr, target);
         System.out.println(ans);
 
-    }
+    }// its used to find the number which is greater that or = target
     static int celing (int [] arr ,int target){
         int start = 0;
         int end = arr.length-1;
